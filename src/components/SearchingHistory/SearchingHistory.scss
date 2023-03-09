@@ -1,0 +1,25 @@
+.searching_history_container{
+    margin:0 auto;
+    width:90%;
+    border:1px solid rgba(0,0,0,0.3);
+    border-top:none;
+    max-height:200px;
+    overflow:hidden;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    .searching_history_item{
+        text-align:left;
+        padding:1rem 3rem;
+        cursor: pointer;
+        transition:0.5s ease;
+
+        &:hover{
+            background-color:silver;
+        }
+    }
+
+}

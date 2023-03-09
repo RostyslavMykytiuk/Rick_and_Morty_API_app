@@ -1,0 +1,37 @@
+.heroes_container{
+    margin:2rem 0;
+
+    .heroes_input_container{
+        text-align:center;
+
+        .heroes_input_img{
+            width:50%;
+            height:15%;
+        }
+
+        .heroes_input{
+            width:90%;
+            padding:1rem 3rem;
+            border-radius:5px;
+            font-size: 16px;
+            color:rgba(0,0,0,0.5);
+            border:1px solid rgba(0,0,0,0.3);
+            box-sizing:border-box;
+            margin-top:1rem;
+            background:url('../../assets/Vector.png') no-repeat scroll 16px 15px;
+        }
+
+
+    }
+
+    .heroes_list{
+        display: flex;
+        justify-content:center;
+        gap:3rem;
+        flex-wrap:wrap;
+        margin-top:1rem;
+        padding:1rem 0.5rem;
+    }
+}
+
+
