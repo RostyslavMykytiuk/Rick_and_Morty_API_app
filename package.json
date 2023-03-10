@@ -36,6 +36,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "homepage":"https://RostyslavMykytiuk.github.io/Rick_and_Morty_API_app"
   }
 }
